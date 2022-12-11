@@ -1,0 +1,89 @@
+hr {}
+
+header {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    background-size: cover;
+}
+
+.first_heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 5px 5px purple;
+}
+
+.botto_section {
+    border: 5px solid green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.monday {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    top: 550px;
+    left: 35%;
+    box-shadow: 5px 5px purple;
+    border-radius: 20px;
+    background-color: limegreen;
+    position: fixed;
+    text-align: center;
+}
+
+
+.my_store {
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.my_store_container {
+    display: flex;
+    justify-content: center;
+}
+
+.my_store_heading {
+    color: white;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.yello_background {
+    display: flex;
+
+}
+
+.vegitable_box {
+    background-color: yellow;
+    margin: 2px;
+    width: 200px;
+    height: 320px;
+    overflow: auto;
+}
